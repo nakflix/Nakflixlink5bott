@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8957819603:AAEC5k04y1dMo2a73hzhXYkCgt1hy9cQjcc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7646074842:AAGkfJG__7k_RBx0Utia5UQ8PoAqY7Arqyo")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14298205"))
@@ -22,11 +22,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001755253960"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1458235021"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8085")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Sadacaren4:alpha3720@nakflixtvbot.vtjzajt.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "fileshare_bot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://bakflixbotestbot:alpha3720@nakflixlink5bot.h7n7u.mongodb.net/?retryWrites=true&w=majorit")
+DB_NAME = os.environ.get("DATABASE_NAME", "nakflixlink5bot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001899642588"))
